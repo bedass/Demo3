@@ -28,6 +28,7 @@ public class UserController {
 
         List<Map> list = new ArrayList<>();
         Map map=new HashMap();
+        System.out.println("测试分支");
         map.put("ip","192.168.226.30");
         list.add(map);
         return userService.getUser();
