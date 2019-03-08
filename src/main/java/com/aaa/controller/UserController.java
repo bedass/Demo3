@@ -1,7 +1,6 @@
 package com.aaa.controller;
 
 import com.aaa.service.UserService;
-import com.sun.deploy.util.IcoEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,6 +28,7 @@ public class UserController {
         List<Map> list = new ArrayList<>();
         Map map=new HashMap();
         System.out.println("测试分支111");
+        System.out.println("测试分支2222");
         map.put("ip","192.168.226.30");
         list.add(map);
         return userService.getUser();
