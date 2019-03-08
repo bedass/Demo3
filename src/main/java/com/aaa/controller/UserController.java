@@ -29,7 +29,7 @@ public class UserController {
         Map map=new HashMap();
         System.out.println("测试分支111");
         System.out.println("测试分支2222");
-        map.put("ip","192.168.226.30");
+        map.put("ipssssss","192.168.226.30");
         list.add(map);
         return userService.getUser();
     }
